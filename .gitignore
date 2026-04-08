@@ -1,0 +1,27 @@
+# Build output
+bin/
+obj/
+
+# User-specific Visual Studio / VS Code files
+.vs/
+*.user
+*.suo
+.vscode/
+
+# Sensitive configuration
+appsettings.json
+appsettings.Development.json
+
+# .NET
+*.dll
+*.pdb
+*.exe
+!Sage.SMB.Api.dll
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
